@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/leandrogoncalves/.nvm/versions/node/v12.22.12/bin/node /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add puppeteer-core
+
+PATH: 
+  /Users/leandrogoncalves/.rd/bin:/Users/leandrogoncalves/.nvm/versions/node/v12.22.12/bin:/Users/leandrogoncalves/.pyenv/shims:/Users/leandrogoncalves/.pyenv/bin:/Users/leandrogoncalves/.rbenv/shims:/opt/homebrew/opt/php@8.0/sbin:/opt/homebrew/opt/php@8.0/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/podman/bin:/Library/Apple/usr/bin:/Users/leandrogoncalves/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.12
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://npm.pkg.github.com/PicPay/puppeteer: Permission denied
+      at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "zap_gpt",
+    "version": "1.0.0",
+    "description": "App to connect the ChatGPT with Whatsapp",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "leandro Gonçalves <contato.leandrogoncalves@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+      "puppeteer": "^19.11.1",
+      "venom-bot": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
